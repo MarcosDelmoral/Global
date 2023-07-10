@@ -1,0 +1,8 @@
+.box1{
+  background-image: url("../img/fondo1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.icon{
+  height: 70px;
+}
