@@ -1,8 +1,10 @@
 .box1{
   background: rgb(24,121,9);
+  width: 100vw;
 }
 .box2{
   background: #013751;
+  width: 100vw;
 }
 .icon{
   height: 70px;
