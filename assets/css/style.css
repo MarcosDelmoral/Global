@@ -2,26 +2,26 @@
 .cont{
   width: 100vw;
 }
-.box1{
-  background: rgb(24,121,9);
+.box{
+  background: #0072BB;
+  background: linear-gradient(180deg, #0072BB 85%, #ffffff 100%);
 }
 .box2{
-  background: #013751;
+}
+.box3{
+  background: #0072BB;
+  background: linear-gradient(180deg, #ffffff 0%, #0072BB 15%, #0072BB 85%, #ffffff 100%);
 }
 .icon{
   height: 70px;
 }
 .g1{
-  background: rgb(24,121,9);
-  background: linear-gradient(180deg, rgba(24,121,9,1) 0%, rgba(24,121,9,1) 10%, rgba(255,255,255,1) 100%);
+  background: #0072BB;
+  background: linear-gradient(180deg, #0072BB 0%, #0072BB 10%, rgba(255,255,255,1) 100%);
 }
 .g2{
-  background: #013751;
-  background: linear-gradient(0deg,#013751 0%, #013751 0%, rgba(255,255,255,1) 100%);
-}
-.g3{
-  background: #013751;
-  background: linear-gradient(180deg,#013751 0%, #013751 0%, rgba(255,255,255,1) 100%);
+  background: #0072BB;
+  background: linear-gradient(0deg,#0072BB 0%, #0072BB 0%, rgba(255,255,255,1) 100%);
 }
 .items{
   width: 13rem;
@@ -29,9 +29,17 @@
 .pflink{
   color: inherit;
 }
-.pflink:hover{
-  color: green;
+.hover1:hover{
+  color: #FBBE04;
 }
 .inputb{
   width: 40%;
+}
+.form-cont{
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-color: transparent !important;
+  border-bottom-color: black !important;
+  border-radius: 0px !important;
 }
