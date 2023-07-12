@@ -40,6 +40,8 @@
   border-left: none !important;
   border-right: none !important;
   border-color: transparent !important;
+  border-bottom-width: thin;
   border-bottom-color: black !important;
   border-radius: 0px !important;
+  margin: 1px;
 }
