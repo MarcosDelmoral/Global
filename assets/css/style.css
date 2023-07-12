@@ -1,10 +1,12 @@
+
+.cont{
+  width: 100vw;
+}
 .box1{
   background: rgb(24,121,9);
-  width: 100vw;
 }
 .box2{
   background: #013751;
-  width: 100vw;
 }
 .icon{
   height: 70px;
@@ -12,23 +14,23 @@
 .g1{
   background: rgb(24,121,9);
   background: linear-gradient(180deg, rgba(24,121,9,1) 0%, rgba(24,121,9,1) 10%, rgba(255,255,255,1) 100%);
-  width: 100vw;
 }
 .g2{
   background: #013751;
   background: linear-gradient(0deg,#013751 0%, #013751 0%, rgba(255,255,255,1) 100%);
-  width: 100vw;
 }
 .g3{
   background: #013751;
   background: linear-gradient(180deg,#013751 0%, #013751 0%, rgba(255,255,255,1) 100%);
-  width: 100vw;
 }
 .items{
   width: 13rem;
 }
 .pflink{
   color: inherit;
+}
+.pflink:hover{
+  color: green;
 }
 .inputb{
   width: 40%;
