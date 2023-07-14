@@ -1,12 +1,11 @@
-
+body{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
 .cont{
-  width: 100vw;
 }
 .box{
   background: #0072BB;
   background: linear-gradient(180deg, #0072BB 85%, #ffffff 100%);
-}
-.box2{
 }
 .box3{
   background: #0072BB;
