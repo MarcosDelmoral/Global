@@ -42,3 +42,6 @@ body{
   border-radius: 0px !important;
   margin: 1px;
 }
+.row{
+  max-width: 1366px;
+}
