@@ -9,6 +9,10 @@ body{
   background: #0072BB;
   background: linear-gradient(180deg, #ffffff 0%, #0072BB 15%, #0072BB 85%, #ffffff 100%);
 }
+.box4{
+  background: #0072BB;
+  background: linear-gradient(180deg, #ffffff 0%, #0072BB 25%);
+}
 .icon{
   height: 70px;
 }
