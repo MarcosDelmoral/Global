@@ -1,11 +1,15 @@
 body{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+  color: #0072BB !important;
+}
+.nav-link{
+  color: #0072BB !important;
 }
 .box{
   background: #0072BB;
   background: linear-gradient(180deg, #0072BB 85%, #ffffff 100%);
 }
-.box3{
+.box-blue{
   background: #0072BB;
   background: linear-gradient(180deg, #ffffff 0%, #0072BB 15%, #0072BB 85%, #ffffff 100%);
 }
