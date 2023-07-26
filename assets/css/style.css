@@ -20,6 +20,12 @@ body{
 .icon{
   height: 70px;
 }
+.emblema{
+  max-height: 492px;
+}
+.tipografia{
+  max-height: 40px;
+}
 .g1{
   background: #0072BB;
   background: linear-gradient(180deg, #0072BB 0%, #0072BB 10%, rgba(255,255,255,1) 100%);
