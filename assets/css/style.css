@@ -1,52 +1,75 @@
-body{
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+  color: #0072BB !important;
+
+  background-color: #ffffff;
+  background-image: radial-gradient(#0073bb48 2px, #ffffff 2px);
+  background-size: 40px 40px;
+
+}
+
+.nav-link {
   color: #0072BB !important;
 }
-.nav-link{
-  color: #0072BB !important;
-}
-.box{
+
+.box {
   background: #0072BB;
   background: linear-gradient(180deg, #0072BB 85%, #ffffff 100%);
 }
-.box-blue{
+
+.box-blue {
   background: #0072BB;
   background: linear-gradient(180deg, #ffffff 0%, #0072BB 15%, #0072BB 85%, #ffffff 100%);
 }
-.box4{
+
+.box4 {
   background: #0072BB;
   background: linear-gradient(180deg, #ffffff 0%, #0072BB 25%);
 }
-.icon{
-  height: 70px;
+
+.box-text {
+  background-color: aliceblue;
 }
-.emblema{
+
+.icon {
+  height: 50px;
+}
+
+.emblema {
   max-height: 492px;
 }
-.tipografia{
+
+.tipografia {
   max-height: 40px;
 }
-.g1{
+
+.g1 {
   background: #0072BB;
-  background: linear-gradient(180deg, #0072BB 0%, #0072BB 10%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(180deg, #0072BB 0%, #0072BB 10%, rgba(255, 255, 255, 1) 100%);
 }
-.g2{
+
+.g2 {
   background: #0072BB;
-  background: linear-gradient(0deg,#0072BB 0%, #0072BB 0%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(0deg, #0072BB 0%, #0072BB 0%, rgba(255, 255, 255, 1) 100%);
 }
-.items{
+
+.items {
   width: 13rem;
 }
-.pflink{
+
+.pflink {
   color: inherit;
 }
-.hover1:hover{
+
+.hover1:hover {
   color: #FBBE04;
 }
-.inputb{
+
+.inputb {
   width: 40%;
 }
-.form-cont{
+
+.form-cont {
   border-top: none !important;
   border-left: none !important;
   border-right: none !important;
@@ -56,6 +79,7 @@ body{
   border-radius: 0px !important;
   margin: 1px;
 }
-.row{
+
+.row {
   max-width: 1366px;
 }
