@@ -14,25 +14,31 @@ body {
 
 .box {
   background: #0072BB;
-  background: linear-gradient(180deg, #0072BB 85%, #ffffff 100%);
+  background: linear-gradient(180deg, #0072BB 85%, #00000000 100%);
 }
 
 .box-blue {
   background: #0072BB;
-  background: linear-gradient(180deg, #ffffff 0%, #0072BB 15%, #0072BB 85%, #ffffff 100%);
+  background: linear-gradient(180deg, #00000000 0%, #0072BB 15%, #0072BB 85%, #00000000 100%);
 }
 
 .box4 {
   background: #0072BB;
-  background: linear-gradient(180deg, #ffffff 0%, #0072BB 25%);
+  background: linear-gradient(180deg, #00000000 0%, #0073bb 25%);
 }
 
 .box-text {
-  background-color: aliceblue;
+  background-color: #f0f8ff;
+}
+.box-footer{
+  background-color: #d8ecfd !important;
 }
 
 .icon {
   height: 50px;
+}
+.logo-client{
+  max-height: 60px;
 }
 
 .emblema {
@@ -58,7 +64,8 @@ body {
 }
 
 .pflink {
-  color: inherit;
+  color: #0072BB;
+  text-decoration:none
 }
 
 .hover1:hover {
