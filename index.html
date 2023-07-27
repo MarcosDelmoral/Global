@@ -17,41 +17,41 @@
   <title>Global</title>
 </head>
 
-<body>
-  <main class="cont">
-    <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm sticky-top" aria-label="Fourth navbar example">
-      <div class="container-fluid">
-        <img src="assets/img/LOGO-HORIZONTAL.png" alt="" class="icon">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
-          aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<body id="global">
+  <nav class="navbar sticky-top navbar-expand-md navbar-light bg-white shadow-sm " aria-label="Fourth navbar example">
+    <div class="container-fluid">
+      <img src="assets/img/LOGO-HORIZONTAL.png" alt="" class="icon">
+      <button id="collapse" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarmain"
+        aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navbarsExample04">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#global">¿Qué es?</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#servicios">Servicios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#porque">¿Por qué Global?</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#clientes">Clientes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#contacto">Contacto</a>
-            </li>
-          </ul>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarmain">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#global">¿Qué es?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#servicios">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#porque">¿Por qué Global?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#clientes">Clientes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#contacto">Contacto</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <div class="box-global" id="global">
+    </div>
+  </nav>
+  <main class="container cont">
+    <div class="box-global">
       <div class="row py-5 mx-auto">
-        <div class="col-md-6 col-sm-12 text-start box-text shadow-lg align-middle p-3 mx-auto my-2">
-          <h1 class="text-start">
+        <div class="col-md-7 col-sm-12 text-justify box-text shadow-lg align-middle p-3 mx-auto my-2">
+          <h1 class="text-center">
             Global Education Services LLC
           </h1>
           <p class="fs-5">
@@ -65,56 +65,56 @@
 
           </p>
         </div>
-        <div class="col-md-6 col-sm-12 box-image d-flex">
+        <div class="col-md-5 col-sm-12 box-image d-flex">
           <img src="assets/img/GRADUATION.jpg" class="img-fluid shadow-lg rounded-4 m-auto" alt="">
 
         </div>
       </div>
     </div>
     <div class="box-blue text-white py-5" id="servicios">
-        <div class="row text-center pb-4">
-          <h2 class="text-center my-5">Servicios</h2>
-          <div class="col-12 row justify-content-evenly mx-auto">
-            <div class="col-md-3 col-sm-12 d-flex flex-column items hover1 pb-4">
-              <i class="fi fi-rs-money-check-edit fs-1"></i>
-              <span class="fs-4">Gestión de pagos</span>
-            </div>
-            <div class="col-md-3 col-sm-12 d-flex flex-column items hover1 mx-auto pb-4">
-              <i class="fi fi-rs-chart-histogram fs-1"></i>
-              <span class="fs-4">Administración de fondos</span>
-            </div>
-            <div class="col-md-3 col-sm-12 d-flex flex-column items hover1 pb-4">
-              <i class="fi fi-rs-usd-circle fs-1"></i>
-              <span class="fs-4">Soluciones de mercadeo</span>
-            </div>
-            <div class="col-md-3 col-sm-12 d-flex flex-column items hover1 pb-4">
-              <i class="fi fi-rs-envelope-open-dollar fs-1"></i>
-              <span class="fs-4">Gestión de cobranzas</span>
-            </div>
-            <div class="col-md-4 col-sm-12 d-flex flex-column items hover1 pb-4">
-              <i class="fi fi-rs-user-add fs-1"></i>
-              <span class="fs-4">Captación de estudiantes</span>
-            </div>
-            <div class="col-md-4 col-sm-12 d-flex flex-column items hover1 pb-4">
-              <i class="fi fi-rs-world fs-1"></i>
-              <span class="fs-4">Gestiones de expansión internacional</span>
-            </div>
-            <div class="col-md-4 col-sm-12 d-flex flex-column items hover1 pb-4">
-              <i class="fi fi-rs-comments-question fs-1"></i>
-              <span class="fs-4">Asesorías y Soluciones personalizadas</span>
-            </div>
-
+      <div class="row text-center pb-4">
+        <h2 class="text-center my-5">Servicios</h2>
+        <div class="col-12 row justify-content-evenly mx-auto">
+          <div class="col-md-3 col-sm-12 d-flex flex-column items hover1 pb-4">
+            <i class="fi fi-rs-money-check-edit fs-1"></i>
+            <span class="fs-4">Gestión de pagos</span>
           </div>
+          <div class="col-md-3 col-sm-12 d-flex flex-column items hover1 mx-auto pb-4">
+            <i class="fi fi-rs-chart-histogram fs-1"></i>
+            <span class="fs-4">Administración de fondos</span>
+          </div>
+          <div class="col-md-3 col-sm-12 d-flex flex-column items hover1 pb-4">
+            <i class="fi fi-rs-usd-circle fs-1"></i>
+            <span class="fs-4">Soluciones de mercadeo</span>
+          </div>
+          <div class="col-md-3 col-sm-12 d-flex flex-column items hover1 pb-4">
+            <i class="fi fi-rs-envelope-open-dollar fs-1"></i>
+            <span class="fs-4">Gestión de cobranzas</span>
+          </div>
+          <div class="col-md-4 col-sm-12 d-flex flex-column items hover1 pb-4">
+            <i class="fi fi-rs-user-add fs-1"></i>
+            <span class="fs-4">Captación de estudiantes</span>
+          </div>
+          <div class="col-md-4 col-sm-12 d-flex flex-column items hover1 pb-4">
+            <i class="fi fi-rs-world fs-1"></i>
+            <span class="fs-4">Gestiones de expansión internacional</span>
+          </div>
+          <div class="col-md-4 col-sm-12 d-flex flex-column items hover1 pb-4">
+            <i class="fi fi-rs-comments-question fs-1"></i>
+            <span class="fs-4">Asesorías y Soluciones personalizadas</span>
+          </div>
+
         </div>
+      </div>
     </div>
     <div class="box-porque" id="porque">
       <div class="row my-0 mx-auto">
-        <div class="d-flex col-md-6 col-sm-12 my-5">
+        <div class="d-flex col-md-5 col-sm-12 my-5">
           <img src="assets/img/DIPLOMA.jpg" class="img-fluid emblema shadow-lg rounded-4 m-auto" alt="">
         </div>
-        <div class="col-md-6 col-sm-12 box-text shadow-lg align-middle p-5 m-auto">
+        <div class="col-md-7 col-sm-12 box-text shadow-lg align-middle p-5 m-auto">
           <h2 class="text-center">¿Por qué Global?</h2>
-          <p class="text-start fs-5">
+          <p class="text-justify fs-5">
             Nuestra empresa se especializa en brindar soluciones y asesoramiento personalizado para la expansión
             internacional de su negocio. Contamos con un equipo de expertos en estrategias de marketing internacional,
             logística y finanzas, que trabajará en estrecha colaboración con usted para garantizar que su empresa tenga
@@ -125,9 +125,9 @@
     </div>
     <div class="box-blue text-white py-5" id="clientes">
       <div class="container-md row mx-auto justify-content-evenly my-3 py-5">
-        <div class="col-12 d-flex flex-column text-start ">
-          <h2 class="text-center mx-auto">Clientes</h2>
-          <span class="fs-5">
+        <div class="col-12 d-flex flex-column text-justify ">
+          <h2 class="text-justify mx-auto">Clientes</h2>
+          <span class="text-justify fs-5 mx-auto">
             Nuestros principales clientes son instituciones educativas que desean crecer en el mercado internacional.
             </br>
             Nuestros clientes poseen estudiantes en todo el mundo, principalmente en Latinoamérica, Estados Unidos y
@@ -141,7 +141,7 @@
           <div class="card-body box-text">
             <img src="assets/img/YACAMBU.png" class="card-img-top" alt="Universidad Yacambu">
           </div>
-          
+
           <div class="card-footer text-body-secondary box-footer">
             <a href="https://www.uny.edu.ve/" target="_blank" class="text-center pflink fs-6">Ver mas</a>
           </div>
@@ -151,7 +151,7 @@
       </div>
     </div>
     <div class="box-contacto pt-3" id="contacto">
-      <!-- <h2 class="text-start my-4" id="contacto">Contacto</h2> -->
+      <!-- <h2 class="text-justify my-4" id="contacto">Contacto</h2> -->
       <div class="row my-0 mx-auto">
         <div class="col-12 d-flex flex-column m-auto pb-5">
           <!-- <div class="col-md-6 col-sm-12 d-flex flex-column m-auto ps-5 pb-5"> -->
@@ -195,6 +195,7 @@
 
   </main>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
 
 </body>
 
