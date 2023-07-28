@@ -5,7 +5,7 @@ function main(params) {
     element.addEventListener("click", () => {
       setTimeout(() => {
         document.getElementById("collapse").click();
-      }, 550);
+      }, 450);
     });
   });
 }
