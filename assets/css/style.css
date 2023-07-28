@@ -6,7 +6,6 @@ body {
   background-image: radial-gradient(#0073bb1c 2px, #ffffff 2px);
   background-size: 40px 40px;
 
-  width: 100vw !important;
   padding-top: 40px;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -68,10 +67,6 @@ body {
 .g2 {
   background: #0072BB;
   background: linear-gradient(0deg, #0072BB 0%, #0072BB 0%, rgba(255, 255, 255, 1) 100%);
-}
-
-.items {
-  width: 13rem;
 }
 
 .pflink {
